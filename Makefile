@@ -4,5 +4,5 @@ link:
 	ln -s $(TOP_DIR)/.tmux.conf ~/.tmux.conf
 
 clean:
-	rm ~/.vimrc
-	rm ~/.tmux.conf
+	rm -f ~/.vimrc
+	rm -f ~/.tmux.conf
